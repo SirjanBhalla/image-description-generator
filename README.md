@@ -10,17 +10,6 @@ my_captioning/
 ├── final_app_with_authentication.py    # Final Streamlit app with username/password
 ├── app_testing.py                      # Early version - allows model switching from UI
 │
-├── data/
-│   ├── captions.txt            # Image name + caption pairs
-│   ├── training_images.txt     # List of unique images used for training
-│   ├── testing_images.txt      # List of unique images for testing
-│   └── Images/                 # All dataset images (flat directory)
-│
-├── models/
-│   └── blip-ft/
-│       ├── final_blip_model/   # Trained on 1k images
-│       ├── final_blip_model2/  # Trained on 5k images
-│       └── final_blip_model3/  # Final model trained on 20k images
 │
 ├── train_test_split.py                           # Creates training/testing image lists from captions
 ├── model_eval.py                                 # Calculates BLEU score on test set
@@ -71,6 +60,8 @@ streamlit run app_testing.py
 ```
 
 ## Dataset Info
+
+Download dataset from: https://www.kaggle.com/datasets/banuprasadb/flickr30k
 
 ```markdown
 Total unique images: ~31,784
