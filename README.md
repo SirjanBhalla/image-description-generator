@@ -32,11 +32,13 @@ pip install -r requirements.txt
 ```
 
 #### 3. Folder setup
+```markdown
 data/
 ├── captions.txt
 ├── training_images.txt
 ├── testing_images.txt
 └── Images/ (all dataset images)
+```
 
 #### 4. Model setup
 Place the fine-tuned model folder final_blip_model3 in models/blip-ft/.
